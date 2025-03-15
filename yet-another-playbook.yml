@@ -1,0 +1,9 @@
+---
+- name: Print Debug Message
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Print a debug message
+      debug:
+        msg: "Hello, this is a debug message from Ansible!"
